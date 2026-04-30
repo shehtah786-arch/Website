@@ -126,7 +126,7 @@ export default function Lesson1() {
           href="/unit1/lesson1/objectives" 
           className="inline-block px-12 py-4 bg-blue-600 text-white rounded-2xl font-black text-xl hover:bg-blue-700 shadow-xl transition-all"
         >
-          ← العودة لفهرس المواضيع
+          ← العودة موضوعات الدرس
         </Link>
       </footer>
 
