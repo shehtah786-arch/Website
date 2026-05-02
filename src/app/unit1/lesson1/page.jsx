@@ -17,7 +17,7 @@ export default function Lesson1() {
         </p>
       </div>
 
-      {/* 3. مقومات الزراعة (طبيعية وبشرية) مع الصور 1، 2، 3 */}
+      {/* 3. مقومات الزراعة (طبيعية وبشرية) */}
       <section className="mb-20">
         <h2 className="text-3xl font-bold text-blue-900 mb-10 flex items-center gap-4">
           <span className="w-3 h-10 bg-blue-900 rounded-full shadow-md"></span>
@@ -25,7 +25,7 @@ export default function Lesson1() {
         </h2>
 
         <div className="space-y-8 pr-4">
-          {/* التربة الخصبة - صورة 1 */}
+          {/* التربة الخصبة */}
           <div className="flex flex-col md:flex-row items-center gap-8 bg-gray-50 p-6 rounded-3xl border border-gray-100 shadow-sm transition hover:border-green-200">
             <div className="flex-1 text-lg leading-relaxed">
               <h4 className="font-extrabold text-green-800 text-xl mb-3">✔ التربة الخصبة</h4>
@@ -36,7 +36,7 @@ export default function Lesson1() {
             </div>
           </div>
 
-          {/* تنوع المناخ - صورة 2 */}
+          {/* تنوع المناخ */}
           <div className="flex flex-col md:flex-row items-center gap-8 bg-gray-50 p-6 rounded-3xl border border-gray-100 shadow-sm transition hover:border-orange-200">
             <div className="flex-1 text-lg leading-relaxed">
               <h4 className="font-extrabold text-orange-700 text-xl mb-3">✔ تنوع المناخ</h4>
@@ -47,7 +47,7 @@ export default function Lesson1() {
             </div>
           </div>
           
-          {/* موارد المياه - صورة 3 */}
+          {/* موارد المياه */}
            <div className="flex flex-col md:flex-row items-center gap-8 bg-gray-50 p-6 rounded-3xl border border-gray-100 shadow-sm transition hover:border-blue-200">
             <div className="flex-1 text-lg leading-relaxed">
               <h4 className="font-extrabold text-blue-700 text-xl mb-3">✔ موارد المياه العذبة</h4>
@@ -60,7 +60,7 @@ export default function Lesson1() {
         </div>
       </section>
 
-      {/* 4. أهم المحاصيل الزراعية - الصور 4، 5 */}
+      {/* 4. أهم المحاصيل الزراعية */}
       <section className="mb-20">
         <h2 className="text-3xl font-bold text-yellow-600 mb-10 flex items-center gap-4">
           <span className="w-3 h-10 bg-yellow-400 rounded-full shadow-md"></span>
@@ -80,7 +80,7 @@ export default function Lesson1() {
         </div>
       </section>
 
-      {/* 5. أهمية الزراعة + البطاقة التفاعلية (هل تعلم) */}
+      {/* 5. أهمية الزراعة + البطاقة التفاعلية */}
       <section className="py-12 bg-green-50/50 rounded-[3rem] px-8 mb-16 border-2 border-green-100 shadow-inner">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           
@@ -105,7 +105,7 @@ export default function Lesson1() {
             </ul>
           </div>
 
-          {/* الجانب الأيسر: البطاقة التفاعلية التي طلبتِها */}
+          {/* الجانب الأيسر: البطاقة التفاعلية */}
           <div className="bg-white p-10 rounded-[2.5rem] shadow-2xl border-t-8 border-yellow-400 text-center transform transition-transform hover:rotate-1">
             <div className="text-7xl mb-4">💡</div>
             <h3 className="text-2xl font-black text-gray-800 mb-4 italic">هل تعلم؟</h3>
@@ -116,7 +116,55 @@ export default function Lesson1() {
               معلومة تاريخية مهمة
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* القسم الجديد: فيديو مساعد (رابعاً) */}
+      <section className="mb-20">
+        <h2 className="text-3xl font-bold text-red-700 mb-8 flex items-center gap-4">
+          <span className="w-3 h-10 bg-red-600 rounded-full shadow-md"></span>
+          رابعاً: شاهد وتعلم (فيديو مساعد)
+        </h2>
+        
+        <div className="max-w-4xl mx-auto bg-white rounded-[2rem] overflow-hidden shadow-xl border border-gray-100 group">
+          <div className="relative">
+            {/* صورة الفيديو المصغرة */}
+            <img 
+              src="https://i.ytimg.com/vi/Uo9jU4aKYYA/maxresdefault.jpg" 
+              alt="فيديو النشاط الزراعي" 
+              className="w-full h-64 md:h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            {/* أيقونة تشغيل الفيديو في المنتصف */}
+            <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-all">
+              <a 
+                href="https://youtu.be/Uo9jU4aKYYA?si=KDRk2FE4vk2R1A3e" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center text-white shadow-2xl hover:bg-red-700 hover:scale-110 transition-all"
+              >
+                <svg className="w-10 h-10 fill-current" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div className="p-8 text-center">
+            <h3 className="text-2xl font-black text-gray-800 mb-3">
+              النشاط الزراعي في وطننا العربي - شرح ممتع
+            </h3>
+            <p className="text-gray-500 text-lg mb-6">
+              شاهد هذا الفيديو لتتعرف بشكل أعمق على مقومات ومشكلات الزراعة في الوطن العربي.
+            </p>
+            <a 
+              href="https://youtu.be/Uo9jU4aKYYA?si=KDRk2FE4vk2R1A3e" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 bg-red-600 text-white rounded-full font-bold hover:bg-red-700 shadow-md transition-all"
+            >
+              فتح الفيديو على YouTube 🎥
+            </a>
+          </div>
         </div>
       </section>
 
@@ -126,7 +174,7 @@ export default function Lesson1() {
           href="/unit1/lesson1/objectives" 
           className="inline-block px-12 py-4 bg-blue-600 text-white rounded-2xl font-black text-xl hover:bg-blue-700 shadow-xl transition-all"
         >
-          ← العودة موضوعات الدرس
+          ← العودة لموضوعات الدرس
         </Link>
       </footer>
 
