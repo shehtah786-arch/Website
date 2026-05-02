@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-white py-20 px-6" dir="rtl">
+    <div className="min-h-screen bg-[#faf9f6] flex flex-col items-center justify-center p-6" dir="rtl">
       <div className="max-w-4xl mx-auto">
         
         {/* العنوان */}

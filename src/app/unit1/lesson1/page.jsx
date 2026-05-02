@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Lesson1() {
   return (
-    <div className="max-w-6xl mx-auto p-6 bg-white min-h-screen text-right" dir="rtl">
+    <div className="min-h-screen bg-[#faf9f6] flex flex-col items-center justify-center p-6" dir="rtl">
       
       {/* 1. رأس الصفحة */}
       <header className="border-b-4 border-yellow-400 pb-8 mb-12 text-center">

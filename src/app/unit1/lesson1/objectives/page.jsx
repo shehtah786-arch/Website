@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function ContentPage() {
   return (
-    <div className="max-w-6xl mx-auto p-8 bg-yellow-50 min-h-screen text-right" dir="rtl">
+   <div className="min-h-screen bg-[#faf9f6] flex flex-col items-center justify-center p-6" dir="rtl">
       <header className="mb-16 text-center">
         <h1 className="text-4xl md:text-5xl font-black text-blue-900 mb-4">موضوعات الدرس</h1>
         <p className="text-gray-600 text-xl font-medium">اختر موضوعاً لبدء التعلم عن الزراعة في وطننا العربي</p>

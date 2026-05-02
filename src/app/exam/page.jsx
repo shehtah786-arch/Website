@@ -90,7 +90,7 @@ export default function ExamPage() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6 rtl min-h-screen bg-gray-50" dir="rtl">
+    <div className="min-h-screen bg-[#faf9f6] flex flex-col items-center justify-center p-6" dir="rtl">
       <h1 className="text-3xl font-black text-center mb-10 text-blue-900 border-b-4 border-yellow-400 pb-4">
         الاختبار النهائي للنشاط الزراعي في وطننا العربي
       </h1>

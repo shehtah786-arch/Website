@@ -10,8 +10,7 @@ export default function InstructionsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-6" dir="rtl">
-      
+  <div className="min-h-screen bg-[#faf9f6] flex flex-col items-center justify-center p-6" dir="rtl">
       {/* الحاوية الرئيسية بنفس شكل الصورة التي أرسلتِها */}
       <div className="max-w-2xl w-full bg-white rounded-[2.5rem] shadow-2xl p-10 border-t-[10px] border-[#ffcc00]">
         

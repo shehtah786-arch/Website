@@ -2,7 +2,8 @@ import Link from 'next/link';
 
 export default function Lesson2() {
   return (
-    <div className="max-w-6xl mx-auto p-6 bg-white min-h-screen text-right" dir="rtl">
+    <div className="min-h-screen bg-[#faf9f6] flex flex-col items-center justify-center p-6" dir="rtl">
+      
       {/* 1. رأس الصفحة */}
       <header className="border-b-4 border-red-400 pb-8 mb-12 text-center">
         <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">الموضوع الثاني: مشكلات الزراعة والمشاريع الكبرى</h1>
