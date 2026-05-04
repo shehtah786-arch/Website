@@ -32,7 +32,7 @@ export default function Lesson1() {
             <div className="flex flex-col md:flex-row items-center gap-8 bg-gray-50 p-6 rounded-3xl border border-gray-100 shadow-sm transition hover:border-green-200">
               <div className="flex-1 text-lg leading-relaxed">
                 <h4 className="font-extrabold text-green-800 text-xl mb-3">✔ التربة الخصبة</h4>
-                تتوافر في سهول الأنهار مثل النيل في مصر والسودان، ودجلة والفرات بالعراق.
+                تتوافر في سهول الأنهار مثل النيل في مصر والسودان، ودجلة والفرات بالعراق وهي تربة غنية تساعد علي نمو المحاصيل .
               </div>
               <div className="shrink-0">
                 <img src="/images/1.jpeg" alt="التربة" className="w-64 h-40 object-cover rounded-2xl border bg-white shadow-inner" />
@@ -43,7 +43,7 @@ export default function Lesson1() {
             <div className="flex flex-col md:flex-row items-center gap-8 bg-gray-50 p-6 rounded-3xl border border-gray-100 shadow-sm transition hover:border-orange-200">
               <div className="flex-1 text-lg leading-relaxed">
                 <h4 className="font-extrabold text-orange-700 text-xl mb-3">✔ تنوع المناخ</h4>
-                يمتلك الوطن العربي مناخاً متنوعاً، مما يساعد على تنوع المحاصيل وتبادلها.
+               يتمتع الوطن العربي بمناخ معتدل ومطير في الشمال وحار وممطر في الجنوب ؛هترتب علي ذلك تنوع المحاصيل والمنتجات الزراعية.
               </div>
               <div className="shrink-0">
                 <img src="/images/2.png" alt="المناخ" className="w-64 h-40 object-cover rounded-2xl border bg-white shadow-inner" />
@@ -54,7 +54,7 @@ export default function Lesson1() {
             <div className="flex flex-col md:flex-row items-center gap-8 bg-gray-50 p-6 rounded-3xl border border-gray-100 shadow-sm transition hover:border-blue-200">
               <div className="flex-1 text-lg leading-relaxed">
                 <h4 className="font-extrabold text-blue-700 text-xl mb-3">✔ موارد المياه العذبة</h4>
-                تتنوع بين الأمطار، المياه السطحية (الأنهار)، والمياه الجوفية (الآبار والعيون).
+                 مثل نهل النيل في مصر والسودان ونهر دجلة والفرات في العراق والامطار في بلاد المغرب ولبنان والمياه الجوفيه في الواحات.
               </div>
               <div className="shrink-0">
                 <img src="/images/3.jpeg" alt="المياه" className="w-64 h-40 object-cover rounded-2xl border bg-white shadow-inner" />
@@ -98,9 +98,7 @@ export default function Lesson1() {
               <div className="flex-1">
                 <h4 className="font-black text-yellow-700 text-2xl mb-2 underline">القصب السكر</h4>
                 <p className="text-xl font-bold text-gray-800 leading-relaxed">
-                    يزرع في مناطق متعددة من
-صعيد مصر ويستخدم بشكل رئيسي فيديو
-صناعة السكر.
+        يزرع في مناطق متعددة من صعيد مصر ويستخدم بشكل رئيسي  صناعة السكر.
                 </p>
               </div>
               <div className="shrink-0">
@@ -127,6 +125,9 @@ export default function Lesson1() {
                 </li>
                 <li className="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm border border-green-200 transition hover:bg-green-100">
                   <span className="text-green-600 text-2xl">✓</span> توفير فرص عمل لسكان الوطن العربي.
+                </li>
+                <li className="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm border border-green-200 transition hover:bg-green-100">
+                  <span className="text-green-600 text-2xl">✓</span> مصدر اساسى للدخل القومي لبعض الدول العربيه.
                 </li>
               </ul>
             </div>
